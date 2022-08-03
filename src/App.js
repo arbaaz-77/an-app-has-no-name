@@ -1,8 +1,12 @@
+import Characters from "./components/Characters";
+import SearchBar from "./components/SearchBar";
+
 function App() {
   return (
-    <div>
-      <h2>Here we go</h2>
-    </div>
+    <>
+      <SearchBar />
+      <Characters />
+    </>
   );
 }
 

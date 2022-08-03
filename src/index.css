@@ -1,5 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f3eee4] text-[#121257] font-montserrat;
+  }
 }
